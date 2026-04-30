@@ -59,12 +59,14 @@ td.tl{text-align:left;font-weight:bold;background:#0f172a;white-space:nowrap;pad
 .hi{background:#0f172a;border-radius:8px;padding:10px;margin-bottom:6px;font-size:13px;display:flex;justify-content:space-between;align-items:center}
 .g{color:#4ade80}.b{color:#60a5fa}
 .div{text-align:center;font-size:12px;color:#475569;margin:8px 0}
+.instructor{text-align:center;font-size:12px;color:#64748b;margin-top:2px;font-style:italic;}
 </style>
 </head>
 <body>
 <div style="font-size:34px;margin-bottom:4px">🏭</div>
 <h1>Oligopoly Showdown</h1>
 <p class="sub">5-Round Game Theory · Prisoner's Dilemma · Nash Equilibrium</p>
+<p class="instructor">Designed by Dr. Sarabjeet Bedi</p>
 <div id="app"></div>
 <script>
 const PAYOFF={Collude:{Collude:[40,40],Undercut:[10,60],Advertise:[25,35]},Undercut:{Collude:[60,10],Undercut:[15,15],Advertise:[30,20]},Advertise:{Collude:[35,25],Undercut:[20,30],Advertise:[30,30]}};
